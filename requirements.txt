@@ -1,0 +1,6 @@
+imageio==2.22.1
+moviepy==1.0.3
+numpy==1.22.4
+Pillow==9.4.0
+pytube==12.1.0
+tqdm==4.62.3
