@@ -3,7 +3,9 @@
  
 Install Requirments
 
-input file should be zipped (.zip) file keep only one zip file in same directery and 
+input file should be zipped (.zip) file 
+
+keep only one zip file in same directery 
 
 Run main.py
 
