@@ -3,7 +3,7 @@
  
 This program consists of several functions that allow for the conversion of files to binary format, and for the creation of videos from a file.
 
-`file_to_binary()`
+# file_to_binary()
 This function takes no parameters and returns a string of 0's and 1's representing the binary data of a file with a .zip extension. It does this by first determining the file size and reading the file as binary data. The binary data is then converted to a string of 0's and 1's and returned.
 
 binary_to_video(bin_string, width=1920, height=1080, pixel_size=4, fps=24)
