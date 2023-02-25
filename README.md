@@ -1,15 +1,15 @@
 # Infinite_Storage_Glitch
  Unleash YouTube's Full Potential: Store Any Files as Cloud Storage
  
-### Install Requirments
+Install Requirments
 
-### input file should be zipped (.zip) file keep only one zip file in same directery and 
+input file should be zipped (.zip) file keep only one zip file in same directery and 
 
-### Run main.py
+Run main.py
 
-### It will give you three options file to video , video to file , download video from youtube select option you need and program will start executing 
+It will give you three options file to video , video to file , download video from youtube select option you need and program will start executing 
 
-## This program inspired from DvorakDwarf Infinite-Storage-Glitch :- https://github.com/DvorakDwarf/Infinite-Storage-Glitch check out his project
+This program inspired from DvorakDwarf Infinite-Storage-Glitch :- https://github.com/DvorakDwarf/Infinite-Storage-Glitch check out his project
 
 I dont know rust so I recreated the same project in python 
 
