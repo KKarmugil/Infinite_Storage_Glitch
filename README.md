@@ -1,6 +1,23 @@
 # Infinite_Storage_Glitch
  Unleash YouTube's Full Potential: Store Any Files as Cloud Storage
  
+### Install Requirments
+
+### input file should be zipped (.zip) file keep only one zip file in same directery and 
+
+### Run main.py
+
+### It will give you three options file to video , video to file , download video from youtube select option you need and program will start executing 
+
+## This program inspired from DvorakDwarf Infinite-Storage-Glitch :- https://github.com/DvorakDwarf/Infinite-Storage-Glitch check out his project
+
+I dont know rust so I recreated the same project in python 
+
+# Demo 
+ [YouTube Link](https://youtu.be/wsbZO4kmXFI)
+
+To reduce the risk of corruption, the program uses larger pixel blocks in binary mode, typically 2x2 blocks.
+
 This program consists of several functions that allow for the conversion of files to binary format, and for the creation of videos from a file.
 
 ## file_to_binary()
@@ -20,22 +37,5 @@ This function takes a string of binary data as binary_filename and writes it to 
 
 Overall, this program provides a simple way to convert files to binary format and create videos from binary data, as well as convert binary data back to files.
 
-
-### Install Requirments
-
-### input file should be zipped (.zip) file keep only one zip file in same directery and 
-
-### Run main.py
-
-### It will give you three options file to video , video to file , download video from youtube select option you need and program will start executing 
-
-## This program inspired from DvorakDwarf Infinite-Storage-Glitch :- https://github.com/DvorakDwarf/Infinite-Storage-Glitch check out his project
-
-I dont know rust so I recreated the same project in python 
-
-# Demo 
- [YouTube Link](https://youtu.be/wsbZO4kmXFI)
-
-To reduce the risk of corruption, the program uses larger pixel blocks in binary mode, typically 2x2 blocks.
 
 
