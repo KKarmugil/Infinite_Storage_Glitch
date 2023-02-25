@@ -1,19 +1,24 @@
 # Infinite_Storage_Glitch
  Unleash YouTube's Full Potential: Store Any Files as Cloud Storage
- 
+
+How to use
+-------------
 Install Requirments
+
+1. Archive to zip all the files you will be uploading
+2. Run the executable
+3. It will give you three options file to video , video to file , download video from youtube select option you need and program will start executing 
+4. Upload the video to your YouTube channel. You probably want to keep it up as unlisted
+5. Use the download option to get the video back
+6. Use the dislodge option to get your files back from the downloaded video
+7. PROFIT
+ 
 
 input file should be zipped (.zip) file 
 
 keep only one zip file in same directery 
 
-Run main.py
 
-It will give you three options 
-
-file to video 
-video to file 
-download video from youtube select option you need and program will start executing 
 
 This program inspired from DvorakDwarf Infinite-Storage-Glitch 
 https://github.com/DvorakDwarf/Infinite-Storage-Glitch check out his project
