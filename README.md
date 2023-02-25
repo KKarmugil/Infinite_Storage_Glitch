@@ -1,7 +1,6 @@
 # Infinite_Storage_Glitch
  YouTube as Cloud Storage: Store Any Files You Want
 
-# Infinite-Storage-Glitch
 ![ezgif-1-0299af809c](https://user-images.githubusercontent.com/86147453/221376499-1e7e894a-1d76-4d59-90ec-90ccf7fb6fd0.gif)
 
 How to use
