@@ -17,7 +17,7 @@ Install Requirments
 7. PROFIT
  
 
-input file should be zipped (.zip) file 
+input file should be zipped (.mkv) file 
 
 keep only one zip file in same directery 
 
