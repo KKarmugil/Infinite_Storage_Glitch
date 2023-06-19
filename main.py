@@ -14,8 +14,10 @@ def file_to_binary():
     # get file size
     dir_path = os.getcwd()
     for file_name in os.listdir(dir_path):
-        if file_name.endswith('.zip'):
+        if file_name.endswith('.mkv'):
             print(file_name)
+            file_name=file_name
+            break
     file_size = os.path.getsize(file_name)
 
     # read file as binary and convert to string of 0's and 1's
@@ -152,7 +154,7 @@ def binaryToFile(binary_filename):
                         for i in range(0, len(binary_filename), 8))
 
     # write binary data to output file
-    with open("reverse.zip", "wb") as f:
+    with open("reverse.mkv", "wb") as f:
         with tqdm(total=len(binary_data), unit='B', unit_scale=True, desc="Writing binary data") as pbar:
             for chunk in range(0, len(binary_data), 1024):
                 f.write(binary_data[chunk:chunk+1024])
