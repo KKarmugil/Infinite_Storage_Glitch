@@ -12,12 +12,7 @@ from pytube import YouTube
 
 def file_to_binary():
     # get file size
-    dir_path = os.getcwd()
-    for file_name in os.listdir(dir_path):
-        if file_name.endswith('.mkv'):
-            print(file_name)
-            file_name=file_name
-            break
+    file_name = input("input file path location : ")
     file_size = os.path.getsize(file_name)
 
     # read file as binary and convert to string of 0's and 1's
@@ -154,21 +149,19 @@ def binaryToFile(binary_filename):
                         for i in range(0, len(binary_filename), 8))
 
     # write binary data to output file
-    with open("reverse.mkv", "wb") as f:
+    with open("finalbinary.bin", "wb") as f:
         with tqdm(total=len(binary_data), unit='B', unit_scale=True, desc="Writing binary data") as pbar:
             for chunk in range(0, len(binary_data), 1024):
                 f.write(binary_data[chunk:chunk+1024])
                 pbar.update(1024)
 
-        print(f"Binary data converted to example_reverse.zip")
+        print(f"Binary data converted to finalbinary.bin \nModify the .bin extension as according to get the original file \nExample : If encoded `a.zip` rename `finalbinary.bin` to `a.zip` ")
 
 
 def ExtractFrames():
     am = []
-    dir_path = os.getcwd()
-    files = [f for f in os.listdir(dir_path) if f.endswith('.webm')]
-    files = [f for f in os.listdir(dir_path) if f.endswith('.mp4')]
-    files = files[0]
+    files = input("input video (.mp4,.webm) location")
+    
     # Open the video file
     vid = imageio.get_reader(files, 'ffmpeg')
 
